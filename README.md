@@ -4,5 +4,6 @@ detection in dialog systems. The original paper can be found at https://arxiv.or
 
 The implementation differs from the original paper in the following ways :
 
-1. used different dataset 
+1. use different dataset : https://aihub.or.kr/aidata/85
+2. use different word2vec model : https://github.com/Kyubyong/wordvectors
 
