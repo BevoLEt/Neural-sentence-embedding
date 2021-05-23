@@ -1,5 +1,5 @@
 # Sentence Detection
-A keras implementation of Bidirectional-LSTM for 'Neural sentence embedding using only in-domain sentences for out-of-domain sentence detection in dialog systems. 
+#### A keras implementation of Bidirectional-LSTM for 'Neural sentence embedding using only in-domain sentences for out-of-domain sentence detection in dialog systems. 
 
 To train Sentence Embedding Network, use only in-domain sentence by Bi-LSTM Network.  
 After the sentence representation were learned, used them to train autoencoder aimed to at OOD sentence detection.
@@ -8,7 +8,7 @@ Data set consists of 12000 ID sentences for 6 domains: food,cloth,education,stor
 
 Use only ID sentence to train Autoencoder and Bi-LSTM(Neural sentence embedding).
 
-To distinguish ID(in-domain), OOD(out-of-domain) sentence, I went through the following process.
+#### To distinguish ID(in-domain), OOD(out-of-domain) sentence, I went through the following process.
 
 1. To initialize embedding layer in Bi-LSTM network(Neural sentence embedding), use pre-trained word2vec model.
 2. Use domain-category analysis as an auxiliary task to train Bi-LSTM(Neural sentence embedding) for OOD sentence detection.
@@ -17,13 +17,17 @@ To distinguish ID(in-domain), OOD(out-of-domain) sentence, I went through the fo
 
 To test autoencoder, use 6000 OOD sentences and 2400 ID sentences.
 
-ID-sentence reconstruction error rate  
+#### Autoencoder Model Loss  
+<img src="img/model_loss.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
+
+
+#### ID-sentence reconstruction error rate  
 <img src="img/id_sentence_reconstruction_error_rate.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
 
-OOD-sentence reconstuction error rate  
-img
+#### OOD-sentence reconstuction error rate  
+<img src="img/ood_sentence_reconstruction_error_rate.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
 
-Accuracy : 71.4%
+**Accuracy : 71.4%**
 
 
 
