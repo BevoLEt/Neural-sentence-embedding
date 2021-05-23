@@ -22,7 +22,7 @@ To test autoencoder, use 6000 OOD sentences and 2400 ID sentences.
 
 
 #### ID-sentence reconstruction error rate  
-<img src="img/id_sentence_reconstruction_error_rate.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
+
 
 #### OOD-sentence reconstuction error rate  
 <img src="img/ood_sentence_reconstruction_error_rate.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
