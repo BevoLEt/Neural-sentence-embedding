@@ -39,6 +39,6 @@ The implementation differs from the original paper in the following ways :
 2. use different word2vec model : https://github.com/Kyubyong/wordvectors
 
 
-Reference : 
-https://arxiv.org/abs/1807.11567
+Reference :  
+https://arxiv.org/abs/1807.11567  
 https://www.tensorflow.org/tutorials/generative/autoencoder?hl=ko
