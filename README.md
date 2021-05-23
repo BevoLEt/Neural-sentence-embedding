@@ -18,14 +18,14 @@ Use only ID sentence to train Autoencoder and Bi-LSTM(Neural sentence embedding)
 To test autoencoder, use 6000 OOD sentences and 2400 ID sentences.
 
 #### Autoencoder Model Loss  
-<img src="img/model_loss.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
+<img src="img/model_loss_rate.png" width="450px" height="300px" title="loss_rate" alt="loss_rate"></img><br/>
 
 
 #### ID-sentence reconstruction error rate  
-<img src="img/id_sentence_reconstruction_error_rate.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
+<img src="img/id_reconstruction_error_rate.png" width="450px" height="300px" title="id_error_rate" alt="id_error_rate"></img><br/>
 
 #### OOD-sentence reconstuction error rate  
-<img src="img/ood_sentence_reconstruction_error_rate.png" width="450px" height="300px" title="ood_error_rate" alt="ood_error_rate"></img><br/>
+<img src="img/ood_reconstruction_error_rate.png" width="450px" height="300px" title="ood_error_rate" alt="ood_error_rate"></img><br/>
 
 **Accuracy : 71.4%**
 
